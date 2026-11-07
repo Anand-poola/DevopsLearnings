@@ -1,6 +1,6 @@
 #!/bib/bash
 person1=suresh
-person2=ramesh
+person2=giresh
 
 
 echo "$person1: : How are you?"
