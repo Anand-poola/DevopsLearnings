@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "enter your user your name"
+echo "enter your username"
 
-read " $USERNAME" #takes input username at runtime
+read "$USERNAME" #takes input username at runtime
 
-echo " username entered is $USERNAME"
+echo "username entered is $USERNAME"
