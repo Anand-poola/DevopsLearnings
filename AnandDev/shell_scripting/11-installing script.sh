@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if USERID=[ $USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
 echo "install mysql through root previliges"
 fi  
