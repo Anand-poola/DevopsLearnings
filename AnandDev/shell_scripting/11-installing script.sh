@@ -7,7 +7,7 @@ then
 echo "install mysql through root previliges"
 fi  
 
-dnf instal git -y
+dnf install git -y
 
 
 
@@ -18,6 +18,6 @@ then
 echo "dont install mysql through root previliges"
 fi  
 
-dnf instal git -y
+dnf install git -y
 
 
