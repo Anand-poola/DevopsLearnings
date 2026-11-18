@@ -1,0 +1,5 @@
+FROM almalinux:9
+RUN dnf install nginx -y
+RUN rm -rf /usr/share/nginx/html/index.html    # this is default config of nginx file, so we removed this to place our content
+COPY index.html /usr/share/nginx/html/index.html
+CMD ["nginx", "-g", "daemon off;"]
