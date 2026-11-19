@@ -1,0 +1,4 @@
+From almalinux:9
+RUN mkdir ANAND
+RUN touch.txt <h1>hi</h1> > ANAND
+WORKDIR ANAND POOLA
